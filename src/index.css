@@ -6,3 +6,9 @@ body {
   max-width: 38rem;
   padding: 2rem;
 }
+
+.actions{
+  grid-template-columns: repeat(3, 1fr);
+  display: grid;
+  gap: 1rem;
+}
